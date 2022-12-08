@@ -1,0 +1,43 @@
+.header_contact{
+    background-color: #221F1E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+
+}
+
+.nav_left{
+    display: flex;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.nav_left a{
+    color: #fff;
+    margin-left: 10px;
+}
+
+.nav_left a:hover, .nav_right a:hover{
+    color: #db4e48;
+}
+
+.location{
+    border-right: 1px solid #fff;
+    padding-right: 15px;
+}
+
+.number{
+    padding-left: 15px;
+}
+
+.fa-phone, .fa-location-dot{
+    font-size: 22px;
+    color: #db4e48;
+}
+
+.nav_right i{
+    font-size: 20px;
+    margin-right: 20px;
+    color: #fff;
+}
