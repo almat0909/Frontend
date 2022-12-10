@@ -2,7 +2,7 @@
     display: flex;
     justify-content: right;
     align-content: center;
-    padding: 15px;
+    padding: 10px;
     background-color: #2d394b;
     position: fixed;
     width: 100%;
@@ -14,10 +14,11 @@
     background-color: #31af36;
     border-color: #31af36;
     color: #fff;
-    padding: 15px 40px;
-    font-size: 16px;
+    padding: 10px 30px;
+    font-size: 14px;
     border-radius: 10px;
 }
+
 .add_shopping > i{
     padding-right: 10px;
 }
@@ -30,7 +31,7 @@
     padding: 0 40px;
     background-color: #fff;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .icon_shopping, .icon_arrow{
@@ -44,7 +45,7 @@
 .icon_shopping{
     margin: -15px 0 -15px 15px; 
     width: 50px;
-    font-size: 23px;
+    font-size: 17px;
 }
 
 .icon_arrow{
@@ -52,12 +53,12 @@
     border-radius: 3px;
     padding: 0 23px;
     border: .3px solid #99a6b9;
-    font-size: 35px;
+    font-size: 30px;
     position: relative;
 }
 
 .icon_arrow i{
     position: absolute;
-    top: 20px;
-    right: 11px;
+    top: 23px;
+    right: 13px;
 }

@@ -3,14 +3,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 85px;
-
+    margin-top: 65px;
 }
 
 .nav_left{
     display: flex;
-    font-size: 16px;
-    padding: 20px;
+    font-size: 14px;
+    padding: 15px;
 }
 
 .nav_left a{
