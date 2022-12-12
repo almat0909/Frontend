@@ -20,18 +20,15 @@
 .news_post{
     display: flex;
     justify-content: space-around;
-    /* padding: 80px; */
     margin: 20px 5%;
 }   
 
 .news_post_item{
     width: calc(33.3% - 40px);
-    /* padding: 40px; */
 }
 
 .news_post_item img{
     width: 100%;
-    /* height: 25vw; */
 }
 
 .news_post_item a{
@@ -56,7 +53,6 @@
     font-size: 13px;
     padding: 30px 0 20px 0;
     line-height: 1.5;
-    /* width: 60%; */
 
 }
 
@@ -156,4 +152,97 @@ button.subscribe:hover{
 
 .brand_item:hover{
     opacity: 100%;
+}
+
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 70px;
+    font-size: 13px;
+    line-height: 2;
+    text-align: center;
+    width: 100%;
+
+}
+
+.price_div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.pricing > .underline{
+    width: 50px;
+    margin-bottom: 40px;
+} 
+
+.price_div_item{
+    border: 1px solid #ececee;
+    width: calc(25%);
+    padding: 27px;
+    margin: 40px 15px 0 15px;
+    position: relative;
+    max-width: 300px;
+}
+
+.pricing_label{
+    width: 86px;
+    height: 86px;
+    position: absolute;
+    top: -43px;
+    right: 21px;
+    border-radius: 50%;
+    transition: .3s ease-out;
+    fill: #db4e48;
+}
+
+
+.pricing_label span{
+    position: absolute;
+    width: 86px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    top: 25px;
+    right: 0;
+}
+
+.pricing_label:hover{
+    box-shadow: -5px 5px 5px  #ececee;
+    top: -44px;
+    right: 22px;
+}
+
+.price_div_item_top{
+    border-bottom: 1px solid #ececee;
+    padding: 29px 0 27px 0;
+}
+
+.price_div_item_top > h6{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.price_month span:first-child{
+    color: #db4e48;
+    font-size: 40px;
+}
+
+.price_div_item_bottom{
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    padding-top: 40px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.price_div_item_bottom > span{
+    padding-top: 10px;
 }

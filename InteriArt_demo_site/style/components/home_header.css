@@ -12,7 +12,8 @@
 
 .navigation{
     text-transform: uppercase;
-    padding-right: 10px;
+    padding-right: 70px;
+    font-size: 12px;
 }
 
 .navigation a{
@@ -20,10 +21,18 @@
     color: #000;
 }
 
+.navigation a:last-child{
+    padding-right: 0;
+}
+
 .navigation a:hover{
     color: #db4e48;
 }
 
+.navigation a:active{
+    color: #db4e48;
+}
+
 .logo{
-    margin-left: 40px;
+    margin-left: 80px;
 }

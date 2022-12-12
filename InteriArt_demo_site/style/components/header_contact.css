@@ -8,8 +8,8 @@
 
 .nav_left{
     display: flex;
-    font-size: 14px;
-    padding: 15px;
+    font-size: 12px;
+    padding: 15px 15px 15px 80px;
 }
 
 .nav_left a{
@@ -30,13 +30,17 @@
     padding-left: 15px;
 }
 
-.fa-phone, .fa-location-dot{
-    font-size: 22px;
+.nav_left .fa{
+    font-size: 15px;
     color: #db4e48;
 }
 
 .nav_right i{
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 20px;
     color: #fff;
+}
+
+.nav_right{
+    margin-right: 50px;
 }
